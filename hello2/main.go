@@ -7,7 +7,7 @@ package main
 // or go install hello hello2
 
 import (
-	"constant"
+	"github.com/go-ping-pong/constant"
 	"fmt"
 	"time"
 )
