@@ -16,7 +16,7 @@ func main() {
 		go start(dummyChannel, i)
 	}
 
-	time.Sleep(1 * time.Second)
+	time.Sleep(5 * time.Second)
 	close(dummyChannel)
 	time.Sleep(2 * time.Second)
 }

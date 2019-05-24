@@ -31,7 +31,7 @@ func (mySlice MySlice) area() int {
 	return result
 }
 
-func MakeSquare(x int) (*Square) {
+func MakeSquare(x int) *Square {
 	return &Square{Rectangle{x,x}}
 }
 
