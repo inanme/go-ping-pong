@@ -4,6 +4,12 @@ github.com/bmuschko/calc/v2 v2.0.0 h1:aOcgu9iJ1EScAarDNJpoApTQ8+1htJohmZBqV+MrKa
 github.com/bmuschko/calc/v2 v2.0.0/go.mod h1:CX2W8NBoVgG/Tkb90K/S0ixVX7Xeu5NgPesZMNjCQBs=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/inanme/counter v0.0.3-0.20200813125900-440b3a517eae h1:g+qu8ooY2CJoxtt4Rv+s70fQHIH3bB5276YFoDDHQLM=
+github.com/inanme/counter v0.0.3-0.20200813125900-440b3a517eae/go.mod h1:gVfH2wujKwGKQfqLd0VcH9lEpMRtptIEVWd+DJeIxIU=
+github.com/inanme/counter2/f1 v0.1.1 h1:WfIVTItuRCaPxVVTwwpg+vHY/4RdtdFmgO/7CI7F9YE=
+github.com/inanme/counter2/f1 v0.1.1/go.mod h1:5kC/fik0Itp2ubZ1kpyY1D6OpOnCXtq4mrHRqXG6wD0=
+github.com/inanme/counter2/f2 v0.1.1 h1:DRC67yddmfu3bsVdSwizRapK4ji+f3dUjIDZcC/uDmY=
+github.com/inanme/counter2/f2 v0.1.1/go.mod h1:Qx2t76cFkeMBG++47uZq3COAhI3lR/MdRG0MDYJhbXg=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
