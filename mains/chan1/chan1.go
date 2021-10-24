@@ -8,9 +8,11 @@ import (
 func producer(ch chan int, d time.Duration) {
 	var i int
 	for {
-		ch <- i
-		i++
-		time.Sleep(d)
+		select {
+		case <-time.Tick(d):
+			ch <- i
+			i++
+		}
 	}
 }
 

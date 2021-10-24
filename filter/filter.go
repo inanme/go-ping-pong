@@ -1,8 +1,8 @@
 package filter
 
-type Predicate func(int) bool
+type Predicate[T any] func(T) bool
 
-func Filter(list []int, predicate Predicate) (result []int) {
+func Filter[T any](list []T, predicate Predicate[T]) (result []T) {
 	for _, e := range list {
 		if predicate(e) {
 			result = append(result, e)
